@@ -1,0 +1,5 @@
+[user]
+        name = jonas.d.stenberg@gmail.com
+        email = Jonas Stenberg
+[credential]
+        helper = cache
