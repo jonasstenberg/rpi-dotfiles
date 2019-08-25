@@ -1,9 +1,9 @@
 # # Install apt packages
-# sudo apt-get install zsh vim ripgrep
-#
+sudo apt-get install zsh vim ripgrep
+
 # # Install fzf
-# git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-# ~/.fzf/install
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
 
 DOTFILES_ROOT=$(pwd -P)
 
