@@ -13,6 +13,7 @@ ZSH_THEME="robbyrussell"
 plugins=(
   common-aliases
   git
+  zsh-syntax-highlighting
 )
 
 # source base .zsh

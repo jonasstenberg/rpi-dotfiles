@@ -1,4 +1,4 @@
-# Raspberry PI Dotfiles
+# Raspberry Pi Dotfiles
 
 ## Usage
 
