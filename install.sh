@@ -1,4 +1,4 @@
-# # Install apt packages
+# Install apt packages
 sudo apt-get install zsh vim ripgrep
 
 # Install oh-my-zsh
@@ -70,7 +70,7 @@ link_file () {
   if [ -f "$dst" -o -d "$dst" -o -L "$dst" ]
   then
 
-    if [ "$overwrite_all" == "false" ] && [ "$backup_all" == "false" ] && [ "$skip_all" == "false" ]
+    if [ -z "$overwrite_all" ] && [ -z "$backup_all" ] && [ -z "$skip_all" ]
     then
 
       local currentSrc="$(readlink $dst)"
