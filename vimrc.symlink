@@ -216,6 +216,10 @@ nnoremap <silent> <leader>s :syntax sync fromstart<CR>
 autocmd FileType vue syntax sync fromstart
 autocmd FileType markdown syntax sync fromstart
 
+" Pressing ESC removes highlighting
+nnoremap <esc> :noh<return><esc>
+nnoremap <esc>^[ <esc>^[
+
 " Don't lose selection when shifting left or right
 xnoremap <  <gv
 xnoremap >  >gv
